@@ -1,3 +1,5 @@
+//Swiper
+
 var swiper = new Swiper(".slide-content", {
     loop: true,
     slidesPerView: 1,
@@ -24,4 +26,5 @@ var swiper = new Swiper(".slide-content", {
         spaceBetween: 50,
       },
     },
-  });
+});
+

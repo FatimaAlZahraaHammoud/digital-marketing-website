@@ -68,7 +68,13 @@ h2 {
     border-radius: 20px;
     display: inline-block;
     align-self: flex-start;
+    cursor: pointer;
+    transition: all 0.2s ease;
     margin-top: 40px;
+}
+
+.main .main-txt button:hover{
+    background-color: var(--color2);
 }
 
 .main .marketing-img{
