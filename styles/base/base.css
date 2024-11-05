@@ -13,6 +13,7 @@
     box-sizing: border-box;
 }
 
+/*Style Navbar*/
 nav{
     background-color: white;
     display: flex;
