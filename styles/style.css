@@ -43,7 +43,7 @@ body{
     align-items: center;
 }
 
-.main-txt p{
+.main-txt p, .welcome-txt p{
     margin-top: 50px;
     justify-content: left;
     width: 70%;
@@ -66,4 +66,26 @@ body{
 .main .marketing-img{
     width: 35%;
     margin-right: 60px;
+}
+
+/*Welcome Section*/
+
+.welcome img{
+    width: 35%;
+}
+
+
+.welcome .welcome-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.welcome .welcome-txt h2{
+    font-weight: bold;
+    text-align: left;
+    align-items: center;
+    font-size: 30px;
 }
