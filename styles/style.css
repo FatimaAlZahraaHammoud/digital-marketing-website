@@ -283,3 +283,104 @@ h2 {
         align-items: center;
     }
 }  
+
+/* Style Section4: Our Methodology */
+
+.methodology-section {
+  padding: 60px 20px;
+  background-color: #f7f9fc;
+  text-align: center;
+}
+
+.methodology-section h2 {
+  margin-bottom: 40px;
+}
+
+.methodology {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.methodology-steps {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  width: 70%;
+  padding-right: 20px; 
+}
+
+.methodology-step {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  width: 30%; 
+  margin: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.methodology-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.step-number {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border: 2px solid #2e7bd3;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+}
+
+.methodology-step h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.methodology-step p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.methodology-image {
+  width: 35%;
+  text-align: center;
+}
+
+.methodology-image img {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+/* Style a Responsive Design for section 5 */
+@media (max-width: 768px) {
+  .methodology {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .methodology-steps {
+    width: 100%; 
+    justify-content: center;
+  }
+
+  .methodology-step {
+    width: 80%; 
+    margin-bottom: 20px;
+  }
+
+  .methodology-image {
+    width: 80%;
+    margin-top: 20px; 
+  }
+}
