@@ -1,0 +1,62 @@
+:root{
+    --color1:#21DADB;
+    --color2:#35BBDF;
+    --color3:#4D94E6;
+    --gradient1: linear-gradient(135deg, var(--color1), var(--color2));
+    --gradient2: linear-gradient(135deg, var(--color2), var(--color3));
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 9%;
+    margin-left: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+nav a:hover{
+    background-color: var(--color3);
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+nav li{
+    list-style: none;
+    margin: 0 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav button{
+    background-color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-right: 125px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid black;
+}
