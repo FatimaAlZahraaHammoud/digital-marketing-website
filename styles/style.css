@@ -82,6 +82,13 @@ h2 {
     margin-right: 60px;
 }
 
+@media (max-width: 576px) {
+    .main .marketing-img{
+        width: 20%;
+    }
+    
+}
+
 /*Welcome Section*/
 
 .welcome{
